@@ -1,6 +1,7 @@
 "use client"
 
 import Button from "@/components/Button";
+import Form from "@/components/Form";
 import Title from "@/components/Title";
 
 export default function Login() {
@@ -15,6 +16,7 @@ export default function Login() {
         <Button text={"presioname"} onClick={imprimir}></Button>
         <br></br>
         <Title title="Complete sus datos"></Title>
+        <Form type={"text"} type2={"password"} onClick={imprimir}></Form>
     </>
   )
 }  
