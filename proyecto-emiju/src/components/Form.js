@@ -12,7 +12,7 @@ export default function Form(props) {
             <Input type={props.type}></Input>
             <h3>Password:</h3>
             <Input type={props.type2}></Input>
-            <Button onClick={props.onClick} text={"hola"}></Button>
+            <Button onClick={props.onClick} text={"Enviar"}></Button>
         </>
     )
 }
