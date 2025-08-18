@@ -1,10 +1,20 @@
 "use client"
+import clsx from "clsx"
 
 export default function Button(props) {
   return (
 
     <>
-      <button onClick={props.onClick}>{props.text}</button>
+      <button className={
+      clsx(
+        {
+          [styles.button] : true,
+          [styles.incremental] : props.color = "lila",
+          [styles.decremental] : props.color = "celeste",
+        }
+      )
+      
+    }onClick={props.onClick}>{props.text}</button>
     </>
 
   )

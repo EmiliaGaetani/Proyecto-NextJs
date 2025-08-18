@@ -1,0 +1,14 @@
+.button{
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(240, 148, 191);
+}
+
+.incremental{
+    background-color: rgb(169, 125, 209);
+}
+
+.decremental{
+    background-color: rgb(149, 235, 247);
+}

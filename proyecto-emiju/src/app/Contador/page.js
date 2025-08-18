@@ -40,6 +40,7 @@ export default function Contador(){
         <>
         <Title title= "Página del contador"></Title>
         <h3>Si desea que el contador incremente, aprete la casilla para que esté seleccionada</h3>
+        <h3>Contador: {cuenta}</h3>
         <Input type={"checkBox"} onChange={funcionalidad}></Input>
         <Button text={"subir/bajar"} onClick={subeobaja}></Button>
         </>
